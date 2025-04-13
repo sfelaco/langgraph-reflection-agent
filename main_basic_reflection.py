@@ -6,7 +6,7 @@ load_dotenv()
 from langchain_core.messages import BaseMessage, HumanMessage
 from langgraph.graph import END, MessageGraph
 
-from chains import generate_chain, reflect_chain
+from basic_reflection.chains import generate_chain, reflect_chain
 
 
 REFLECT = "reflect"
