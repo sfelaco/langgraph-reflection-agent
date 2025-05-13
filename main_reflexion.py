@@ -33,7 +33,7 @@ graph = builder.compile()
 # print(graph.get_graph().draw_mermaid())
 # print(graph.get_graph().draw_ascii())
 
-graph.get_graph().draw_mermaid_png(output_file_path="graph.png")
+#graph.get_graph().draw_mermaid_png(output_file_path="graph.png")
 
 res = graph.invoke(
     "Scrivi riguardo la società sportiva calcio Napoli, riguardo la sua storia degli ultimi 20 anni"
