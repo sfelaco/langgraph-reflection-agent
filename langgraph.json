@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./main-async2.py:graph"
+  },
+  "env": ".env"
+}

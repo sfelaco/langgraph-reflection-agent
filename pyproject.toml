@@ -5,6 +5,9 @@ description = ""
 authors = [
     {name = "sfelaco"}
 ]
+packages = [
+    {include = "graph"},
+]
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
 dependencies = [
